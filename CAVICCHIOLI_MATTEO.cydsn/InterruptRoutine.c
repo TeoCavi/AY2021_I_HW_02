@@ -11,13 +11,11 @@
 */
 
 #include "InterruptRoutine.h"
-#include "GlobalVariables.h"
 
-CY_ISR_PROTO(Custom_BUTTON_ISR){
 
-    stato ++;
-    if(stato == 8)
-        stato = 1;
+CY_ISR_PROTO(Custom_BUTTON_ISR)
+{
+    stato = stato + 1; //implementazione variabile di stato ad ogni pressione
 }
 
 /* [] END OF FILE */
