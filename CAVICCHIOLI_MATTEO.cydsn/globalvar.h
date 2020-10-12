@@ -10,17 +10,6 @@
  * ========================================
 */
 
-#include "InterruptRoutine.h"
-#include "driver.h"
-
-
-CY_ISR_PROTO(Custom_BUTTON_ISR)
-{
-    PWM_Stop();
-    flag = 1;
-    stato ++; //implementazione variabile di stato ad ogni pressione
-    if (stato == 8)
-        stato = 0;
-}
-
+unsigned int stato; // variabile globale 
+unsigned int flag;
 /* [] END OF FILE */

@@ -31,6 +31,8 @@
     /* Funzione di aggiornamento dei parametri del PWM */
     
     void RG_LED_Mod(Mod m);
+    void PWM_Start(void);
+    void PWM_Stop(void);
      
 #endif
     
