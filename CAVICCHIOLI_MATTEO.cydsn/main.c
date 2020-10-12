@@ -1,6 +1,6 @@
 /* ========================================
  *
- * Copyright YOUR COMPANY, THE YEAR
+ * Copyright Cavicchioli Matteo, 2020
  * All Rights Reserved
  * UNPUBLISHED, LICENSED SOFTWARE.
  *
@@ -17,17 +17,13 @@
 
 int main(void)
 {
-    CyGlobalIntEnable; /* Enable global interrupts. */
+    CyGlobalIntEnable; 
     
     CLK_DEBOUNCER_Start();
     stato = 1;
     flag = 1;
     
     ISR_BUTTON_StartEx(Custom_BUTTON_ISR);
-    
-
-    //PWM_GREEN_SetCompareMode(2);
-    //PWM_RED_SetCompareMode(2);
     
     CLK_Start();
     PWM_Start();

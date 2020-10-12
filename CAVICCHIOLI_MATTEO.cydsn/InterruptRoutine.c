@@ -1,6 +1,6 @@
 /* ========================================
  *
- * Copyright YOUR COMPANY, THE YEAR
+ * Copyright Cavicchioli Matteo, 2020
  * All Rights Reserved
  * UNPUBLISHED, LICENSED SOFTWARE.
  *
@@ -18,9 +18,10 @@ CY_ISR_PROTO(Custom_BUTTON_ISR)
 {
     PWM_Stop();
     flag = 1;
-    stato ++; //implementazione variabile di stato ad ogni pressione
-    if (stato == 8)
+    if (stato == 7)
         stato = 0;
+    stato ++; //implementazione variabile di stato ad ogni pressione
+
 }
 
 /* [] END OF FILE */
