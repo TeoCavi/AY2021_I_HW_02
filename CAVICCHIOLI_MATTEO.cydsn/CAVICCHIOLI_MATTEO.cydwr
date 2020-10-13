@@ -251,16 +251,10 @@
   <Data key="DataVersionKey" value="2" />
   <Group key="DWRInstGuidMapping">
     <Group key="Pin">
-<<<<<<< HEAD
-      <Data key="2e5dc961-5c63-41eb-8af2-f5919a7361ec" value="Red_LED" />
-      <Data key="8d318d8b-cf7b-4b6b-b02c-ab1c5c49d0ba" value="Push_Button" />
-      <Data key="e851a3b9-efb8-48be-bbb8-b303b216c393" value="Green_LED" />
-=======
       <Data key="8d318d8b-cf7b-4b6b-b02c-ab1c5c49d0ba" value="Push_Button" />
       <Data key="c77047c8-5233-4150-ac20-2e0fb86b5bd3" value="Push_Button_Deb" />
       <Data key="d15454c4-95b7-44e7-85a8-36b2ec3b0a36" value="GREEN_LED" />
       <Data key="e851a3b9-efb8-48be-bbb8-b303b216c393" value="RED_LED" />
->>>>>>> dev
     </Group>
   </Group>
   <Group key="EEPROM">
@@ -3347,19 +3341,6 @@
     </Group>
   </Group>
   <Group key="Pin2">
-<<<<<<< HEAD
-    <Group key="2e5dc961-5c63-41eb-8af2-f5919a7361ec">
-      <Group key="0">
-        <Data key="Port Format" value="2,7" />
-      </Group>
-    </Group>
-    <Group key="8d318d8b-cf7b-4b6b-b02c-ab1c5c49d0ba">
-      <Group key="0">
-        <Data key="Port Format" value="2,2" />
-      </Group>
-    </Group>
-    <Group key="e851a3b9-efb8-48be-bbb8-b303b216c393">
-=======
     <Group key="8d318d8b-cf7b-4b6b-b02c-ab1c5c49d0ba">
       <Group key="0">
         <Data key="Port Format" value="2,2" />
@@ -3371,20 +3352,16 @@
       </Group>
     </Group>
     <Group key="d15454c4-95b7-44e7-85a8-36b2ec3b0a36">
->>>>>>> dev
       <Group key="0">
         <Data key="Port Format" value="2,6" />
       </Group>
     </Group>
-<<<<<<< HEAD
-=======
     <Group key="e851a3b9-efb8-48be-bbb8-b303b216c393">
       <Group key="0">
         <Data key="Port Format" value="2,7" />
       </Group>
     </Group>
     <Group key="Unlocked Pins" />
->>>>>>> dev
   </Group>
   <Group key="PlaceDir">
     <Data key="count" value="0" />
